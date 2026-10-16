@@ -1,0 +1,21 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables d'environnement (secrets)
+.env
+
+# Fichiers uploadés par les utilisateurs (données runtime, pas du code)
+storage/*
+!storage/.gitkeep
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
